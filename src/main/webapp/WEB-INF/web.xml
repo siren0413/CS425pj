@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>ClientManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientSearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ClientSearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentSearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.AgentSearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.ResortManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortSearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ResortSearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CitySearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.CitySearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.CityManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CitySearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.CitySearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.ResortSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingSearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.BookingSearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientUpdateUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ClientUpdateUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientUpdate</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientDelete</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ClientAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentUpdateUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.AgentUpdateUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentUpdate</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.AgentAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentDelete</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.CityAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.CityAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityUpdateUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.CityUpdateUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityUpdate</servlet-name>
+    <servlet-class>com.proj425.web.controller.CityUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityDelete</servlet-name>
+    <servlet-class>com.proj425.web.controller.CityDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ResortAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.ResortAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortDelete</servlet-name>
+    <servlet-class>com.proj425.web.controller.ResortDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortUpdateUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.ResortUpdateUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResortUpdate</servlet-name>
+    <servlet-class>com.proj425.web.controller.ResortUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.BookingAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingUpdateUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.BookingUpdateUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingUpdate</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingDelete</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckRevenue</servlet-name>
+    <servlet-class>com.proj425.web.controller.CheckRevenue</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RevenueSearchUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.RevenueSearchUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AmenityManage</servlet-name>
+    <servlet-class>com.proj425.web.controller.AmenityManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AmenityAddUI</servlet-name>
+    <servlet-class>com.proj425.web.UI.AmenityAddUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AmenityAdd</servlet-name>
+    <servlet-class>com.proj425.web.controller.AmenityAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AmenitySearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.AmenitySearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingStatistics</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingStatistics</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BestAgentSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.BestAgentSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FrequentClientSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.FrequentClientSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TopClientSearch</servlet-name>
+    <servlet-class>com.proj425.web.controller.TopClientSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.proj425.web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.proj425.web.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentSession</servlet-name>
+    <servlet-class>com.proj425.web.controller.AgentSession</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookingSession</servlet-name>
+    <servlet-class>com.proj425.web.controller.BookingSession</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientSession</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientSession</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientPerAgent</servlet-name>
+    <servlet-class>com.proj425.web.controller.ClientPerAgent</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ClientManage</servlet-name>
+    <url-pattern>/ClientManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientSearchUI</servlet-name>
+    <url-pattern>/ClientSearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientSearch</servlet-name>
+    <url-pattern>/ClientSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentManage</servlet-name>
+    <url-pattern>/AgentManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentSearch</servlet-name>
+    <url-pattern>/AgentSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentSearchUI</servlet-name>
+    <url-pattern>/AgentSearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortManage</servlet-name>
+    <url-pattern>/ResortManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortSearchUI</servlet-name>
+    <url-pattern>/ResortSearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CitySearch</servlet-name>
+    <url-pattern>/CitySearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityManage</servlet-name>
+    <url-pattern>/CityManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CitySearchUI</servlet-name>
+    <url-pattern>/CitySearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortSearch</servlet-name>
+    <url-pattern>/ResortSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingSearchUI</servlet-name>
+    <url-pattern>/BookingSearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingSearch</servlet-name>
+    <url-pattern>/BookingSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingManage</servlet-name>
+    <url-pattern>/BookingManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientUpdateUI</servlet-name>
+    <url-pattern>/ClientUpdateUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientUpdate</servlet-name>
+    <url-pattern>/ClientUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientDelete</servlet-name>
+    <url-pattern>/ClientDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientAddUI</servlet-name>
+    <url-pattern>/ClientAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientAdd</servlet-name>
+    <url-pattern>/ClientAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentUpdateUI</servlet-name>
+    <url-pattern>/AgentUpdateUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentUpdate</servlet-name>
+    <url-pattern>/AgentUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentAddUI</servlet-name>
+    <url-pattern>/AgentAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentAdd</servlet-name>
+    <url-pattern>/AgentAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentDelete</servlet-name>
+    <url-pattern>/AgentDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityAdd</servlet-name>
+    <url-pattern>/CityAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityAddUI</servlet-name>
+    <url-pattern>/CityAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityUpdateUI</servlet-name>
+    <url-pattern>/CityUpdateUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityUpdate</servlet-name>
+    <url-pattern>/CityUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityDelete</servlet-name>
+    <url-pattern>/CityDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortAddUI</servlet-name>
+    <url-pattern>/ResortAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortAdd</servlet-name>
+    <url-pattern>/ResortAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortDelete</servlet-name>
+    <url-pattern>/ResortDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortUpdateUI</servlet-name>
+    <url-pattern>/ResortUpdateUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResortUpdate</servlet-name>
+    <url-pattern>/ResortUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingAdd</servlet-name>
+    <url-pattern>/BookingAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingAddUI</servlet-name>
+    <url-pattern>/BookingAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingUpdateUI</servlet-name>
+    <url-pattern>/BookingUpdateUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingUpdate</servlet-name>
+    <url-pattern>/BookingUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingDelete</servlet-name>
+    <url-pattern>/BookingDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckRevenue</servlet-name>
+    <url-pattern>/CheckRevenue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RevenueSearchUI</servlet-name>
+    <url-pattern>/RevenueSearchUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AmenityManage</servlet-name>
+    <url-pattern>/AmenityManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AmenityAddUI</servlet-name>
+    <url-pattern>/AmenityAddUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AmenityAdd</servlet-name>
+    <url-pattern>/AmenityAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AmenitySearch</servlet-name>
+    <url-pattern>/AmenitySearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingStatistics</servlet-name>
+    <url-pattern>/BookingStatistics</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BestAgentSearch</servlet-name>
+    <url-pattern>/BestAgentSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FrequentClientSearch</servlet-name>
+    <url-pattern>/FrequentClientSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopClientSearch</servlet-name>
+    <url-pattern>/TopClientSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentSession</servlet-name>
+    <url-pattern>/AgentSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingSession</servlet-name>
+    <url-pattern>/BookingSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientSession</servlet-name>
+    <url-pattern>/ClientSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientPerAgent</servlet-name>
+    <url-pattern>/ClientPerAgent</url-pattern>
+  </servlet-mapping>
+
+
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
